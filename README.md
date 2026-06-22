@@ -101,7 +101,7 @@ Open your browser and navigate to `http://127.0.0.1:5000`.
 From the dashboard interface, you can click on any dataset to browse raw records, spin up a new model, run searches, view live dynamic prediction responses, click check-boxes to log archived snapshots, and append new records to fine-tune the system.
 
 ![Web UI Dashboard](https://githubusercontent.com)
-<img src="../../Zero-Schema Adaptive Omni-Engine Dashboard" alt="Web UI Dashboard" width="600">
+<img src="/Zero-Schema Adaptive Omni-Engine Dashboard" alt="Web UI Dashboard" width="600">
 
 ### Running via Command Line (CLI)
 If you prefer script-based pipelines or background automations, execute your operational modes directly using the orchestrator file:
