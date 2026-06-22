@@ -1,0 +1,47 @@
+[
+    {
+        "product_id": "SKU-8821",
+        "title": "Sony WH-1000XM5 Headphones",
+        "department": [
+            "Electronics",
+            "Audio_Gear"
+        ],
+        "specifications": {
+            "form_factor": "Over-Ear Wireless",
+            "hardware_metrics": {
+                "battery_life": "30_hours",
+                "charging_port": "USB-C"
+            },
+            "specialty_features": [
+                "Active_Noise_Cancelling",
+                "Hi-Res_Audio",
+                "Smart_Ambient_Sound"
+            ]
+        }
+    },
+    {
+        "serial_number": "SSD-990-2TB",
+        "item_name": "Samsung 990 PRO Solid State Drive",
+        "hardware_type": "PC Internal Storage Component",
+        "performance_class": {
+            "interface": "PCIe_Gen4_NVMe_M2",
+            "sequential_read_speed": "7450_MBs"
+        },
+        "marketing_tags": [
+            "Gaming_Rig",
+            "Ultra_Fast_Boot",
+            "PlayStation_5_Compatible"
+        ]
+    },
+    {
+        "id": "CHAIR-ERG-01",
+        "display_name": "Ergonomic Mesh Office Desk Chair",
+        "furniture_category": "Home Office Furniture",
+        "ergonomic_adjustments": [
+            "Lumbar_Support",
+            "3D_Armrests",
+            "Tilt_Lock"
+        ],
+        "text_overview": "High-back breathable mesh chair designed for long hours of remote productivity and back pain relief."
+    }
+]

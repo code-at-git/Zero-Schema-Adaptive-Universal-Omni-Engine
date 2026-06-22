@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zero-Schema Adaptive Omni-Engine Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        h1 {
+            grid-column: span 2;
+            margin-bottom: 5px;
+            color: #1e293b;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            grid-column: span 2;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #0f172a;
+            font-size: 18px;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 8px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 6px;
+            font-size: 13px;
+            color: #475569;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 14px;
+            font-family: inherit;
+            margin-bottom: 15px;
+            background-color: #f8fafc;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+            font-family: monospace;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            padding: 11px 16px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .secondary-btn {
+            background-color: #64748b;
+            margin-top: 5px;
+        }
+
+        .secondary-btn:hover {
+            background-color: #475569;
+        }
+
+        pre {
+            background: #0f172a;
+            color: #38bdf8;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 13px;
+            max-height: 400px;
+        }
+
+        .list-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 10px;
+            max-height: 120px;
+            overflow-y: auto;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .list-item {
+            padding: 6px;
+            border-bottom: 1px solid #edf2f7;
+            cursor: pointer;
+            color: #1e293b;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .list-item:hover {
+            background: #e2e8f0;
+            border-radius: 4px;
+        }
+
+        .badge {
+            background: #3b82f6;
+            color: white;
+            padding: 2px 6px;
+            font-size: 11px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Zero-Schema Adaptive Omni-Engine Dashboard</h1>
+    <p class="subtitle">Locked Architecture Framework for Search, Recommendation, and Context Personalization Mappings
+    </p>
+
+    <div class="container">
+
+        <!-- LEFT CONTROL COLUMN -->
+        <div class="column">
+            <!-- DATASET GENERATION CARD -->
+            <div class="card">
+                <h2>1. Dataset Workspace</h2>
+                <form action="/dataset/create" method="POST">
+                    <label>Create New Domain Dataset File (.json):</label>
+                    <input type="text" name="filename" placeholder="e.g., medical_records, domain_real_estate" required>
+                    <button type="submit">Generate New Dataset File</button>
+                </form>
+
+                <h3 style="font-size:14px; margin-top:20px; color:#475569;">Available Data Catalogs (Click to browse raw
+                    records):
+                </h3>
+                <div class="list-box">
+                    {% for ds in datasets %}
+                    <div class="list-item" onclick="viewData('/dataset/view/{{ ds }}', 'Dataset: {{ ds }}')">
+                        📁 {{ ds }} <span class="badge">json</span>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <form action="/dataset/add_record" method="POST">
+                    <label>Append Record (Any Asymmetrical JSON layout):</label>
+                    <select name="dataset_name" required>
+                        {% for ds in datasets %} <option value="{{ ds }}">{{ ds }}</option> {% endfor %}
+                    </select>
+                    <textarea name="json_record"
+                        placeholder='{\n  "custom_key": "any data value",\n  "nested_tags": ["tag1", "tag2"]\n}'
+                        required></textarea>
+                    <button type="submit" class="secondary-btn">Append and Save Record Shape</button>
+                </form>
+            </div>
+
+            <!-- ENGINE TRAINING CARD -->
+            <div class="card">
+                <h2>2. Train & Save Models (Mode 1 & Mode 3)</h2>
+                <form action="/model/train" method="POST">
+                    <label>Target Dataset File:</label>
+                    <select name="dataset_name" required>
+                        {% for ds in datasets %} <option value="{{ ds }}">{{ ds }}</option> {% endfor %}
+                    </select>
+                    <label>Export Model State Output Name (.pkl):</label>
+                    <input type="text" name="model_name" placeholder="e.g., electronics_omni_v1" required>
+                    <button type="submit" style="background-color: #10b981;">Fit & Export Model Checkpoint</button>
+                </form>
+
+                <h3 style="font-size:14px; margin-top:20px; color:#475569;">Active Stored Vector Models:</h3>
+                <div class="list-box">
+                    {% for md in models %}
+                    <div class="list-item" style="cursor:default;">⚙️ {{ md }} <span class="badge"
+                            style="background:#10b981;">pkl
+                            ready</span></div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <!-- RIGHT SEARCH & INFERENCE COLUMN -->
+        <div class="column">
+
+            <!-- MODEL INFERENCE OPERATIONS (Mode 2: Predict) -->
+            <div class="card">
+                <h2>3. Run Engine Mappings (Mode 2: Predict)</h2>
+                <form id="predictionForm">
+                    <label>Select Stored Binary Model:</label>
+                    <select name="model_name" id="predictModel" required>
+                        {% for md in models %} <option value="{{ md }}">{{ md }}</option> {% endfor %}
+                    </select>
+
+                    <label>Operation Routing Mode:</label>
+                    <select name="mode" id="predictMode" onchange="adjustUIFields()">
+                        <option value="search">Standard Global Search</option>
+                        <option value="recommend">Item-to-Item Recommendation</option>
+                        <option value="personalize">Context Personalization Search</option>
+                    </select>
+
+                    <div id="queryGroup">
+                        <label>Query Text Intent:</label>
+                        <input type="text" name="query" id="predictQuery"
+                            placeholder="Enter keywords, phrases or description signals...">
+                    </div>
+
+                    <div id="interactGroup" style="display: none;">
+                        <label>Feedback Interaction Token (Record Integer Index):</label>
+                        <input type="number" name="interact_idx" id="predictIdx" value="0" min="0">
+                    </div>
+
+                    <div id="userGroup" style="display: none;">
+                        <label>User Identifier Token:</label>
+                        <input type="text" name="user_id" id="predictUser" value="USER_WEB_SESSION_1">
+                    </div>
+
+                    <label style="display:inline-flex; align-items:center; cursor:pointer; margin-bottom:15px;">
+                        <input type="checkbox" id="savePrediction"
+                            style="width:auto; margin-right:8px; margin-bottom:0;">
+                        Archive and save prediction logs to disk file
+                    </label>
+
+                    <button type="button" onclick="executeLiveInference()">Execute Prediction Call</button>
+                </form>
+            </div>
+
+            <!-- LIVE UNSTRUCTURED VIEWPORT WINDOW -->
+            <div class="card">
+                <h2 id="viewportTitle">Live Engine JSON Viewport</h2>
+                <pre id="jsonViewport">// Unstructured label-to-score outputs will load here recursively...</pre>
+
+                <h3 style="font-size:14px; margin-top:20px; color:#475569;">Archived Prediction Trees Logs:</h3>
+                <div class="list-box">
+                    {% for pr in predictions %}
+                    <div class="list-item" onclick="viewData('/prediction/view/{{ pr }}', 'Archived Log: {{ pr }}')">
+                        📄 {{ pr }} <span class="badge" style="background:#64748b;">saved log</span>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function adjustUIFields() {
+            const mode = document.getElementById('predictMode').value;
+            document.getElementById('queryGroup').style.display = (mode === "search" || mode === "personalize") ? "block" : "none";
+            document.getElementById('interactGroup').style.display = (mode === "recommend" || mode === "personalize") ? "block" : "none";
+            document.getElementById('userGroup').style.display = (mode === "personalize") ? "block" : "none";
+        }
+
+        function viewData(url, title) {
+            document.getElementById('viewportTitle').innerText = title;
+            document.getElementById('jsonViewport').innerText = "Fetching structural tree metrics from disk file storage...";
+
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById('jsonViewport').innerText = JSON.stringify(data, null, 4);
+                })
+                .catch(err => {
+                    document.getElementById('jsonViewport').innerText = "Error loading payload layout configuration: " + err;
+                });
+        }
+
+        function executeLiveInference() {
+            document.getElementById('viewportTitle').innerText = "Processing Inference Vector Mapping...";
+            document.getElementById('jsonViewport').innerText = "Running multi-level similarity evaluations...";
+
+            const formData = new FormData();
+            formData.append('model_name', document.getElementById('predictModel').value);
+            formData.append('mode', document.getElementById('predictMode').value);
+            formData.append('query', document.getElementById('predictQuery').value);
+            formData.append('interact_idx', document.getElementById('predictIdx').value);
+            formData.append('user_id', document.getElementById('predictUser').value);
+            formData.append('save_prediction', document.getElementById('savePrediction').checked);
+
+            fetch('/model/predict', { method: 'POST', body: formData })
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById('viewportTitle').innerText = "Inference Response (Zero-Schema Layout)";
+                    document.getElementById('jsonViewport').innerText = JSON.stringify(data, null, 4);
+                    if (document.getElementById('savePrediction').checked) {
+                        setTimeout(() => { window.location.reload(); }, 800);
+                    }
+                })
+                .catch(err => {
+                    document.getElementById('jsonViewport').innerText = "Engine processing fault context: " + err;
+                });
+        }
+    </script>
+</body>
+
+</html>

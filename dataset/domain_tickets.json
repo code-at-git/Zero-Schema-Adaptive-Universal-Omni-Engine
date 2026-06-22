@@ -1,0 +1,21 @@
+[
+    {
+        "ticket_num": "TCK-404",
+        "subject": "Database connection failing on server pool",
+        "severity_rating": "Critical",
+        "environment": {
+            "pool": "Production SQL",
+            "timeout": "30s"
+        }
+    },
+    {
+        "id": "T-505",
+        "summary": "Password reset token link expired",
+        "module": "Authentication Security Core API",
+        "labels": [
+            "Auth",
+            "SMS",
+            "Login_Issue"
+        ]
+    }
+]

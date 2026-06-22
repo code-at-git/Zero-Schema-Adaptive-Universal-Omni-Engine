@@ -1,0 +1,45 @@
+[
+    {
+        "movie_id": "M-101",
+        "title": "Inception",
+        "genre": [
+            "Sci-Fi",
+            "Action"
+        ],
+        "production_details": {
+            "crew": {
+                "director": "Christopher Nolan",
+                "music": "Zimmer"
+            },
+            "tags": [
+                "Dreams",
+                "Heist"
+            ]
+        },
+        "NEW_UNSTRUCTURED_TREE": {
+            "box_office": {
+                "status": "Blockbuster",
+                "awards": [
+                    "Oscar_Winner",
+                    "BAFTA_Winner"
+                ]
+            }
+        }
+    },
+    {
+        "uuid": "MOV-992",
+        "name": "Interstellar",
+        "film_category": "Sci-Fi Space Travel",
+        "director_name": "Nolan",
+        "flat_keywords_list": [
+            "Wormhole",
+            "Time_Dilation"
+        ],
+        "ADDED_TAGS_ARRAY": [
+            "Aviation",
+            "Physics",
+            "IMAX_Version",
+            "Nolan_Classic"
+        ]
+    }
+]

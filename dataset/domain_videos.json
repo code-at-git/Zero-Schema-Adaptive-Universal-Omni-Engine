@@ -1,0 +1,75 @@
+[
+  {
+    "video_id": "VID_YT_001",
+    "headline": "10 Advanced Python Tricks You Should Know in 2026",
+    "content_pillar": [
+      "Software_Engineering",
+      "Coding_Tutorials"
+    ],
+    "channel_info": {
+      "creator": "TechWithCode",
+      "subscriber_tier": "1M_Plus"
+    },
+    "video_properties": {
+      "duration_seconds": 842,
+      "resolution": "4K_UHD",
+      "aspect_ratio": "16_9"
+    },
+    "chapters_timeline": [
+      "00_00_Introduction",
+      "01_45_List_Comprehensions",
+      "05_12_Walrus_Operator",
+      "11_30_Conclusion"
+    ]
+  },
+  {
+    "clip_uuid": "TIKTOK-V771",
+    "caption": "Day in the life of a remote software developer working from a cafe in Bali \u2615\ufe0f\ud83c\udf34",
+    "platform_feed": "Short_Form_Vertical_Video",
+    "dimensions": {
+      "aspect_ratio": "9_16",
+      "optimized_for": "Mobile_App"
+    },
+    "audio_track": "Trending_Lofi_Beats_Volume_4",
+    "algorithmic_tags": [
+      "Vlog",
+      "Remote_Work",
+      "Digital_Nomad",
+      "Developer_Life",
+      "Aesthetic_Vibes"
+    ]
+  },
+  {
+    "clip_id": "V-FEEDBACK-99",
+    "title_caption": "Advanced pandas data analytics scripts for software developers and data engineers",
+    "nested_metrics": {
+      "views": 5000
+    },
+    "random_tags_list": [
+      "Python",
+      "Data_Science"
+    ]
+  },
+  {
+    "clip_id": "V-FEEDBACK-99",
+    "title_caption": "Advanced pandas data analytics scripts for software developers and data engineers",
+    "nested_metrics": {
+      "views": 5000
+    },
+    "random_tags_list": [
+      "Python",
+      "Data_Science"
+    ]
+  },
+  {
+    "clip_id": "V-FEEDBACK-99",
+    "title_caption": "Advanced pandas data analytics scripts for software developers and data engineers",
+    "nested_metrics": {
+      "views": 5000
+    },
+    "random_tags_list": [
+      "Python",
+      "Data_Science"
+    ]
+  }
+]

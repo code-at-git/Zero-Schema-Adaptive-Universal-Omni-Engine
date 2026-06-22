@@ -1,0 +1,44 @@
+[
+    {
+        "filename": "neon_tokyo_streets.jpg",
+        "asset_type": "Street Photography",
+        "technical_metadata": {
+            "camera": {
+                "brand": "Sony",
+                "model": "Alpha_7R_V",
+                "lens": "35mm_F1.4_GM"
+            },
+            "exposure": {
+                "aperture": "f1.4",
+                "shutter_speed": "1_160s",
+                "iso": 800
+            }
+        },
+        "visual_anchors": {
+            "primary_colors": [
+                "Cyberpunk_Neon_Pink",
+                "Electric_Blue"
+            ],
+            "detected_objects": [
+                "Rain_Reflections",
+                "Umbrellas",
+                "Crowd"
+            ]
+        }
+    },
+    {
+        "image_id": "IMG_99214",
+        "caption": "Misty mountain sunrise over the Swiss Alps ridge",
+        "composition": "Landscape Wide_Angle",
+        "flat_tags": [
+            "Nature_Photography",
+            "Golden_Hour",
+            "Foggy_Valleys",
+            "Travel_Inspiration"
+        ],
+        "geotag_details": {
+            "region": "Lauterbrunnen_Switzerland",
+            "altitude_meters": 2450
+        }
+    }
+]

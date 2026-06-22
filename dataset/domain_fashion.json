@@ -1,0 +1,621 @@
+[
+    {
+        "item_id": "SKU-2001",
+        "display_title": "Women's Beige Hoodie",
+        "department": "Women Apparel",
+        "tags_list": [
+            "Hoodie",
+            "Beige",
+            "Linen Blend",
+            "New Arrival",
+            "Athletic"
+        ]
+    },
+    {
+        "id": "PROD-3002",
+        "title": "Midnight Black Dress for Unisex",
+        "editorial_review": "This beautiful Midnight Black piece is crafted from Stretch Denim. Perfect for athletic performance sportswear.",
+        "specifications": {
+            "intended_for": "Unisex",
+            "main_material": "Stretch Denim"
+        }
+    },
+    {
+        "sku": "FSH-4003",
+        "item": "Windbreaker",
+        "gender_target": "Kids",
+        "material_blend": "Recycled Polyester",
+        "color": "Off-White",
+        "style_vibe": "Minimalist contemporary fashion"
+    },
+    {
+        "product_sku": "FSH-LN-1004",
+        "name": "Pastel Pink T-Shirt",
+        "demographic": "Men",
+        "classification": {
+            "core_category": "Apparel",
+            "sub_type": "T-Shirt"
+        },
+        "design_details": {
+            "fabric": "100% Organic Cotton",
+            "color_palette": [
+                "Pastel Pink",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Formal business professional attire"
+        }
+    },
+    {
+        "item_id": "SKU-2005",
+        "display_title": "Men's Crimson Red Loafers",
+        "department": "Men Footwear",
+        "tags_list": [
+            "Loafers",
+            "Crimson Red",
+            "Recycled Polyester",
+            "New Arrival",
+            "Casual"
+        ]
+    },
+    {
+        "id": "PROD-3006",
+        "title": "Charcoal Gray Heels for Kids",
+        "editorial_review": "This beautiful Charcoal Gray piece is crafted from Stretch Denim. Perfect for a vintage retro look.",
+        "specifications": {
+            "intended_for": "Kids",
+            "main_material": "Stretch Denim"
+        }
+    },
+    {
+        "sku": "FSH-4007",
+        "item": "Trench Coat",
+        "gender_target": "Kids",
+        "material_blend": "Merino Wool",
+        "color": "Classic Navy",
+        "style_vibe": "Casual streetwear style"
+    },
+    {
+        "product_sku": "FSH-LN-1008",
+        "name": "Classic Navy Heels",
+        "demographic": "Kids",
+        "classification": {
+            "core_category": "Footwear",
+            "sub_type": "Heels"
+        },
+        "design_details": {
+            "fabric": "Linen Blend",
+            "color_palette": [
+                "Classic Navy",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Formal business professional attire"
+        }
+    },
+    {
+        "item_id": "SKU-2009",
+        "display_title": "Women's Charcoal Gray Sneakers",
+        "department": "Women Footwear",
+        "tags_list": [
+            "Sneakers",
+            "Charcoal Gray",
+            "Recycled Polyester",
+            "New Arrival",
+            "Vintage"
+        ]
+    },
+    {
+        "id": "PROD-3010",
+        "title": "Off-White Windbreaker for Unisex",
+        "editorial_review": "This beautiful Off-White piece is crafted from Premium Leather. Perfect for formal business professional attire.",
+        "specifications": {
+            "intended_for": "Unisex",
+            "main_material": "Premium Leather"
+        }
+    },
+    {
+        "sku": "FSH-4011",
+        "item": "Puffer Jacket",
+        "gender_target": "Unisex",
+        "material_blend": "Premium Leather",
+        "color": "Charcoal Gray",
+        "style_vibe": "Casual streetwear style"
+    },
+    {
+        "product_sku": "FSH-LN-1012",
+        "name": "Beige Sandals",
+        "demographic": "Kids",
+        "classification": {
+            "core_category": "Footwear",
+            "sub_type": "Sandals"
+        },
+        "design_details": {
+            "fabric": "Premium Leather",
+            "color_palette": [
+                "Beige",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Minimalist contemporary fashion"
+        }
+    },
+    {
+        "item_id": "SKU-2013",
+        "display_title": "Unisex's Classic Navy Boots",
+        "department": "Unisex Footwear",
+        "tags_list": [
+            "Boots",
+            "Classic Navy",
+            "100% Organic Cotton",
+            "New Arrival",
+            "Minimalist"
+        ]
+    },
+    {
+        "id": "PROD-3014",
+        "title": "Classic Navy Watch for Unisex",
+        "editorial_review": "This beautiful Classic Navy piece is crafted from Premium Leather. Perfect for casual streetwear style.",
+        "specifications": {
+            "intended_for": "Unisex",
+            "main_material": "Premium Leather"
+        }
+    },
+    {
+        "sku": "FSH-4015",
+        "item": "Watch",
+        "gender_target": "Women",
+        "material_blend": "Premium Leather",
+        "color": "Midnight Black",
+        "style_vibe": "Athletic performance sportswear"
+    },
+    {
+        "product_sku": "FSH-LN-1016",
+        "name": "Midnight Black Windbreaker",
+        "demographic": "Unisex",
+        "classification": {
+            "core_category": "Outerwear",
+            "sub_type": "Windbreaker"
+        },
+        "design_details": {
+            "fabric": "Recycled Polyester",
+            "color_palette": [
+                "Midnight Black",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Minimalist contemporary fashion"
+        }
+    },
+    {
+        "item_id": "SKU-2017",
+        "display_title": "Kids's Charcoal Gray Jeans",
+        "department": "Kids Apparel",
+        "tags_list": [
+            "Jeans",
+            "Charcoal Gray",
+            "Linen Blend",
+            "New Arrival",
+            "Formal"
+        ]
+    },
+    {
+        "id": "PROD-3018",
+        "title": "Midnight Black Backpack for Kids",
+        "editorial_review": "This beautiful Midnight Black piece is crafted from Recycled Polyester. Perfect for formal business professional attire.",
+        "specifications": {
+            "intended_for": "Kids",
+            "main_material": "Recycled Polyester"
+        }
+    },
+    {
+        "sku": "FSH-4019",
+        "item": "Puffer Jacket",
+        "gender_target": "Kids",
+        "material_blend": "Premium Leather",
+        "color": "Midnight Black",
+        "style_vibe": "Minimalist contemporary fashion"
+    },
+    {
+        "product_sku": "FSH-LN-1020",
+        "name": "Pastel Pink T-Shirt",
+        "demographic": "Unisex",
+        "classification": {
+            "core_category": "Apparel",
+            "sub_type": "T-Shirt"
+        },
+        "design_details": {
+            "fabric": "Recycled Polyester",
+            "color_palette": [
+                "Pastel Pink",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Vintage retro look"
+        }
+    },
+    {
+        "item_id": "SKU-2021",
+        "display_title": "Men's Classic Navy Boots",
+        "department": "Men Footwear",
+        "tags_list": [
+            "Boots",
+            "Classic Navy",
+            "100% Organic Cotton",
+            "New Arrival",
+            "Minimalist"
+        ]
+    },
+    {
+        "id": "PROD-3022",
+        "title": "Midnight Black Sandals for Men",
+        "editorial_review": "This beautiful Midnight Black piece is crafted from Stretch Denim. Perfect for formal business professional attire.",
+        "specifications": {
+            "intended_for": "Men",
+            "main_material": "Stretch Denim"
+        }
+    },
+    {
+        "sku": "FSH-4023",
+        "item": "Windbreaker",
+        "gender_target": "Unisex",
+        "material_blend": "Premium Leather",
+        "color": "Charcoal Gray",
+        "style_vibe": "Casual streetwear style"
+    },
+    {
+        "product_sku": "FSH-LN-1024",
+        "name": "Charcoal Gray Blouse",
+        "demographic": "Men",
+        "classification": {
+            "core_category": "Apparel",
+            "sub_type": "Blouse"
+        },
+        "design_details": {
+            "fabric": "Premium Leather",
+            "color_palette": [
+                "Charcoal Gray",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Minimalist contemporary fashion"
+        }
+    },
+    {
+        "item_id": "SKU-2025",
+        "display_title": "Kids's Off-White Heels",
+        "department": "Kids Footwear",
+        "tags_list": [
+            "Heels",
+            "Off-White",
+            "100% Organic Cotton",
+            "New Arrival",
+            "Minimalist"
+        ]
+    },
+    {
+        "id": "PROD-3026",
+        "title": "Beige Trench Coat for Men",
+        "editorial_review": "This beautiful Beige piece is crafted from 100% Organic Cotton. Perfect for athletic performance sportswear.",
+        "specifications": {
+            "intended_for": "Men",
+            "main_material": "100% Organic Cotton"
+        }
+    },
+    {
+        "sku": "FSH-4027",
+        "item": "Polo Shirt",
+        "gender_target": "Unisex",
+        "material_blend": "Premium Leather",
+        "color": "Pastel Pink",
+        "style_vibe": "Minimalist contemporary fashion"
+    },
+    {
+        "product_sku": "FSH-LN-1028",
+        "name": "Classic Navy Denim Jacket",
+        "demographic": "Kids",
+        "classification": {
+            "core_category": "Outerwear",
+            "sub_type": "Denim Jacket"
+        },
+        "design_details": {
+            "fabric": "100% Organic Cotton",
+            "color_palette": [
+                "Classic Navy",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Vintage retro look"
+        }
+    },
+    {
+        "item_id": "SKU-2029",
+        "display_title": "Kids's Classic Navy Sneakers",
+        "department": "Kids Footwear",
+        "tags_list": [
+            "Sneakers",
+            "Classic Navy",
+            "Premium Leather",
+            "New Arrival",
+            "Casual"
+        ]
+    },
+    {
+        "id": "PROD-3030",
+        "title": "Classic Navy Leather Belt for Women",
+        "editorial_review": "This beautiful Classic Navy piece is crafted from Recycled Polyester. Perfect for casual streetwear style.",
+        "specifications": {
+            "intended_for": "Women",
+            "main_material": "Recycled Polyester"
+        }
+    },
+    {
+        "sku": "FSH-4031",
+        "item": "Heels",
+        "gender_target": "Kids",
+        "material_blend": "Merino Wool",
+        "color": "Classic Navy",
+        "style_vibe": "Casual streetwear style"
+    },
+    {
+        "product_sku": "FSH-LN-1032",
+        "name": "Olive Green Skirt",
+        "demographic": "Unisex",
+        "classification": {
+            "core_category": "Apparel",
+            "sub_type": "Skirt"
+        },
+        "design_details": {
+            "fabric": "Premium Leather",
+            "color_palette": [
+                "Olive Green",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Minimalist contemporary fashion"
+        }
+    },
+    {
+        "item_id": "SKU-2033",
+        "display_title": "Kids's Midnight Black Watch",
+        "department": "Kids Accessories",
+        "tags_list": [
+            "Watch",
+            "Midnight Black",
+            "Linen Blend",
+            "New Arrival",
+            "Athletic"
+        ]
+    },
+    {
+        "id": "PROD-3034",
+        "title": "Midnight Black Sunglasses for Unisex",
+        "editorial_review": "This beautiful Midnight Black piece is crafted from Recycled Polyester. Perfect for formal business professional attire.",
+        "specifications": {
+            "intended_for": "Unisex",
+            "main_material": "Recycled Polyester"
+        }
+    },
+    {
+        "sku": "FSH-4035",
+        "item": "Polo Shirt",
+        "gender_target": "Men",
+        "material_blend": "Linen Blend",
+        "color": "Pastel Pink",
+        "style_vibe": "Athletic performance sportswear"
+    },
+    {
+        "product_sku": "FSH-LN-1036",
+        "name": "Classic Navy Windbreaker",
+        "demographic": "Women",
+        "classification": {
+            "core_category": "Outerwear",
+            "sub_type": "Windbreaker"
+        },
+        "design_details": {
+            "fabric": "100% Organic Cotton",
+            "color_palette": [
+                "Classic Navy",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Formal business professional attire"
+        }
+    },
+    {
+        "item_id": "SKU-2037",
+        "display_title": "Men's Charcoal Gray Windbreaker",
+        "department": "Men Outerwear",
+        "tags_list": [
+            "Windbreaker",
+            "Charcoal Gray",
+            "Linen Blend",
+            "New Arrival",
+            "Casual"
+        ]
+    },
+    {
+        "id": "PROD-3038",
+        "title": "Midnight Black Boots for Kids",
+        "editorial_review": "This beautiful Midnight Black piece is crafted from Premium Leather. Perfect for formal business professional attire.",
+        "specifications": {
+            "intended_for": "Kids",
+            "main_material": "Premium Leather"
+        }
+    },
+    {
+        "sku": "FSH-4039",
+        "item": "Trench Coat",
+        "gender_target": "Men",
+        "material_blend": "Merino Wool",
+        "color": "Charcoal Gray",
+        "style_vibe": "Formal business professional attire"
+    },
+    {
+        "product_sku": "FSH-LN-1040",
+        "name": "Classic Navy Sneakers",
+        "demographic": "Men",
+        "classification": {
+            "core_category": "Footwear",
+            "sub_type": "Sneakers"
+        },
+        "design_details": {
+            "fabric": "Linen Blend",
+            "color_palette": [
+                "Classic Navy",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Minimalist contemporary fashion"
+        }
+    },
+    {
+        "item_id": "SKU-2041",
+        "display_title": "Unisex's Off-White Blouse",
+        "department": "Unisex Apparel",
+        "tags_list": [
+            "Blouse",
+            "Off-White",
+            "Premium Leather",
+            "New Arrival",
+            "Minimalist"
+        ]
+    },
+    {
+        "id": "PROD-3042",
+        "title": "Off-White Backpack for Kids",
+        "editorial_review": "This beautiful Off-White piece is crafted from Premium Leather. Perfect for a vintage retro look.",
+        "specifications": {
+            "intended_for": "Kids",
+            "main_material": "Premium Leather"
+        }
+    },
+    {
+        "sku": "FSH-4043",
+        "item": "Beanie",
+        "gender_target": "Kids",
+        "material_blend": "Recycled Polyester",
+        "color": "Crimson Red",
+        "style_vibe": "Athletic performance sportswear"
+    },
+    {
+        "product_sku": "FSH-LN-1044",
+        "name": "Crimson Red Trench Coat",
+        "demographic": "Men",
+        "classification": {
+            "core_category": "Outerwear",
+            "sub_type": "Trench Coat"
+        },
+        "design_details": {
+            "fabric": "100% Organic Cotton",
+            "color_palette": [
+                "Crimson Red",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Minimalist contemporary fashion"
+        }
+    },
+    {
+        "item_id": "SKU-2045",
+        "display_title": "Kids's Off-White Sandals",
+        "department": "Kids Footwear",
+        "tags_list": [
+            "Sandals",
+            "Off-White",
+            "Recycled Polyester",
+            "New Arrival",
+            "Minimalist"
+        ]
+    },
+    {
+        "id": "PROD-3046",
+        "title": "Midnight Black T-Shirt for Kids",
+        "editorial_review": "This beautiful Midnight Black piece is crafted from Merino Wool. Perfect for formal business professional attire.",
+        "specifications": {
+            "intended_for": "Kids",
+            "main_material": "Merino Wool"
+        }
+    },
+    {
+        "sku": "FSH-4047",
+        "item": "Hoodie",
+        "gender_target": "Kids",
+        "material_blend": "Stretch Denim",
+        "color": "Charcoal Gray",
+        "style_vibe": "Formal business professional attire"
+    },
+    {
+        "product_sku": "FSH-LN-1048",
+        "name": "Pastel Pink T-Shirt",
+        "demographic": "Women",
+        "classification": {
+            "core_category": "Apparel",
+            "sub_type": "T-Shirt"
+        },
+        "design_details": {
+            "fabric": "Stretch Denim",
+            "color_palette": [
+                "Pastel Pink",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Minimalist contemporary fashion"
+        }
+    },
+    {
+        "item_id": "SKU-2049",
+        "display_title": "Unisex's Classic Navy T-Shirt",
+        "department": "Unisex Apparel",
+        "tags_list": [
+            "T-Shirt",
+            "Classic Navy",
+            "Premium Leather",
+            "New Arrival",
+            "Casual"
+        ]
+    },
+    {
+        "id": "PROD-3050",
+        "title": "Pastel Pink Hoodie for Unisex",
+        "editorial_review": "This beautiful Pastel Pink piece is crafted from Premium Leather. Perfect for formal business professional attire.",
+        "specifications": {
+            "intended_for": "Unisex",
+            "main_material": "Premium Leather"
+        }
+    },
+    {
+        "sku": "FSH-4051",
+        "item": "Sneakers",
+        "gender_target": "Kids",
+        "material_blend": "100% Organic Cotton",
+        "color": "Pastel Pink",
+        "style_vibe": "Minimalist contemporary fashion"
+    },
+    {
+        "product_sku": "FSH-LN-1052",
+        "name": "Classic Navy Windbreaker",
+        "demographic": "Women",
+        "classification": {
+            "core_category": "Outerwear",
+            "sub_type": "Windbreaker"
+        },
+        "design_details": {
+            "fabric": "Premium Leather",
+            "color_palette": [
+                "Classic Navy",
+                "Neutral Accents"
+            ],
+            "aesthetic": "Formal business professional attire"
+        }
+    },
+    {
+        "item_id": "SKU-2053",
+        "display_title": "Women's Charcoal Gray Dress",
+        "department": "Women Apparel",
+        "tags_list": [
+            "Dress",
+            "Charcoal Gray",
+            "Linen Blend",
+            "New Arrival",
+            "Casual"
+        ]
+    },
+    {
+        "id": "PROD-3054",
+        "title": "Charcoal Gray Heels for Kids",
+        "editorial_review": "This beautiful Charcoal Gray piece is crafted from Linen Blend. Perfect for a vintage retro look.",
+        "specifications": {
+            "intended_for": "Kids",
+            "main_material": "Linen Blend"
+        }
+    }
+]
